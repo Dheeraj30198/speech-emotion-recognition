@@ -1,4 +1,4 @@
-# speech-emotion-recognition
+# Speech Emotion Recognition Using RNN and MFCC Features
 Speech Emotion Recognition using RNN and MFCC features (RAVDESS dataset).
 # Speech Emotion Recognition
 
