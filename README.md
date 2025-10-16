@@ -2,14 +2,12 @@
 Speech Emotion Recognition using RNN and MFCC features (RAVDESS dataset).
 # Speech Emotion Recognition
 
-This project aims to classify emotions from speech using:
-- **MFCC features** extracted with `librosa`
-- **RNN (LSTM)** for classification
-- Dataset: **RAVDESS Emotional Speech Audio**
+# Speech Emotion Recognition
 
-## Current Progress
-✅ Mounted Google Drive in Colab  
-✅ Verified dataset upload (RAVDESS subset)  
+Recognizes human emotions from speech using:
+- MFCC features (audio)
+- RNN (LSTM)
+- RAVDESS dataset
 
-Next steps: MFCC extraction → RNN training.
+## Project Structure
 
