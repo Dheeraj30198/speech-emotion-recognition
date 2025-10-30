@@ -30,19 +30,9 @@ speech-emotion-recognition/
 
 ## Google Colab
 
-You can run all notebooks directly on [Google Colab](https://colab.research.google.com/):
+We can run all notebooks directly on [Google Colab](https://colab.research.google.com/):
 
-- **No local setup required**: Simply open each notebook in Colab and follow the steps.
-- **GPU acceleration**: Use Colab’s free GPU for faster training.
-- **Data Handling**: Upload the RAVDESS dataset to Colab or use Google Drive integration for persistent storage.
-- **Environment**: Install dependencies using `!pip install -r requirements.txt` or add individual packages as needed in a notebook cell.
 
-**How to use on Colab:**
-1. Open [Google Colab](https://colab.research.google.com/).
-2. Upload the notebook (`.ipynb`) file or use the GitHub import feature (`File > Open notebook > GitHub`).
-3. Run the setup and follow instructions in each notebook cell.
-4. For larger datasets, consider mounting your Google Drive:
-   ```python
    from google.colab import drive
    drive.mount('/content/drive')
    ```
@@ -65,7 +55,7 @@ You can run all notebooks directly on [Google Colab](https://colab.research.goog
 
 ## Usage
 
-Run the Jupyter notebooks (locally or on Colab) in order:
+Run the colab in order:
 
 1. **Data Setup**: Download and organize the raw RAVDESS audio files.
 2. **Feature Extraction**: Extract MFCC features and save them to the `data/` directory.
@@ -74,7 +64,7 @@ Run the Jupyter notebooks (locally or on Colab) in order:
 
 ## Dataset
 
-- **RAVDESS**: [Ryerson Audio-Visual Database of Emotional Speech and Song](https://zenodo.org/record/1188976)
+- **RAVDESS**: [Ryerson Audio-Visual Database of Emotional Speech and Song](https://drive.google.com/drive/folders/1yRDew-zQrF6b8uE8Q4WrtMPcwt1ACdz8?usp=drive_link)
   - Contains 24 professional actors vocalizing two statements with various emotional intonations.
   - Emotions include: calm, happy, sad, angry, fearful, disgust, surprised, neutral.
 
