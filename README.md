@@ -16,15 +16,7 @@ Speech Emotion Recognition (SER) aims to detect human emotions from speech signa
 ## Project Structure
 
 ```
-speech-emotion-recognition/
-│
-├── notebooks/
-│   ├── 01_data_setup.ipynb        # Downloading and organizing the dataset
-│   ├── 02_feature_extraction.ipynb # Extract MFCC features from audio
-│   ├── 03_model_training.ipynb    # Train RNN (LSTM) on features
-│   └── 04_inference.ipynb         # Perform emotion recognition on new samples
-├── data/                          # Preprocessed features (MFCCs)
-├── requirements.txt               # Python dependencies
+speech-emotion-recognition.ipynb/           
 └── README.md
 ```
 
