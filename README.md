@@ -75,3 +75,28 @@ Pull requests and suggestions for improvements are welcome! Please open an issue
 - [RAVDESS Dataset](https://zenodo.org/record/1188976)
 - [MFCC Overview](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
 - [LSTM Networks](https://en.wikipedia.org/wiki/Long_short-term_memory)
+
+## Future Work
+
+As the next step in this project, we aim to develop a **web-based interface** that enables users to provide **live voice input** for real-time emotion detection. This extension will allow the model to process streaming audio, extract MFCC features on-the-fly, and classify emotional states using the trained RNN.
+
+###  Live Emotion Detection via Web Interface
+
+- Users can speak directly into the browser using a microphone.
+- The system will capture audio, extract MFCC features in real time, and classify emotions using the LSTM model.
+- Visual feedback will be provided instantly, showing the detected emotion and confidence score.
+
+###  Integration with Voice-Enabled AI Tools
+
+This feature has broader implications for enhancing user experience in voice-based AI systems such as:
+
+- **ChatGPT**, **Copilot**, **Perplexity**, and other conversational agents
+- By understanding not just the **content** of speech but also the **emotional tone**, AI can respond more empathetically and contextually
+- This opens doors to more **emotion-aware interactions**, improving accessibility, mental health support, and human-computer engagement
+
+### Potential Applications
+
+- Emotion-aware virtual assistants
+- Real-time feedback in customer service bots
+- Sentiment tracking in voice surveys and interviews
+- Adaptive learning platforms that respond to student frustration or enthusiasm
