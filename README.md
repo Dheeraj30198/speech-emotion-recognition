@@ -38,12 +38,8 @@ We can run all notebooks directly on [Google Colab](https://colab.research.googl
    ```
 
 2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. **Download the RAVDESS dataset**
-   - The instructions for downloading are provided in `01_data_setup.ipynb`.
 
 ## Usage
 
@@ -68,7 +64,7 @@ Run the colab in order:
 
 ## Results
 
-Sample results and accuracy metrics can be found in the `03_model_training.ipynb` notebook. You can visualize predictions and evaluate performance on test samples.
+Sample results and accuracy metrics can be found in the  notebook. You can visualize predictions and evaluate performance on test samples.
 
 ## Contributing
 
